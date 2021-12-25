@@ -1,8 +1,7 @@
 # Fetch Code #
 
-TODO Describe the plugin shortly here.
-
-TODO Provide more detailed description here.
+This plugin allows you to display code from a repository, such as Github, Gitlab or others in order to use it as a resource in the courses.
+We recommend using it in conjunction with the Syntax Highlighter plugin for a better experience.
 
 ## Installing via uploaded ZIP file ##
 
