@@ -1,7 +1,7 @@
 # Fetch Code #
 
-This plugin allows you to display code from a repository, such as Github, Gitlab or others in order to use it as a resource in the courses.
-We recommend using it in conjunction with the Syntax Highlighter plugin for a better experience.
+This plugin allows you to display code from a repository, such as Github, Gitlab or others in order to use it as a resource in the courses.  
+We recommend using it in conjunction with the [Syntax Highlighter plugin](https://github.com/sharpchi/moodle-filter_syntaxhighlighter) for a better experience.
 
 ## Use
 Exlicar como se usa
