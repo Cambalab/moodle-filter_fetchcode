@@ -17,14 +17,14 @@
 /**
  * Plugin version and other meta-data are defined here.
  *
- * @package     filter_fetch_code
+ * @package     filter_fetchcode
  * @copyright   2022 Cambá <info@camba.coop>
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->component = 'filter_fetch_code';
+$plugin->component = 'filter_fetchcode';
 $plugin->release = '0.1.0';
 $plugin->version = 2021122500;
 $plugin->requires = 2021051700;

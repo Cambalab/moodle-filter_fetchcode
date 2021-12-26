@@ -17,7 +17,7 @@
 /**
  * Main filter class
  *
- * @package   filter_fetch_code
+ * @package   filter_fetchcode
  * @author    Camba Coop <info@camba.coop>
  * @copyright 2020 Camba Coop {@link https://www.camba.coop}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -28,12 +28,12 @@ defined('MOODLE_INTERNAL') || die();
 /**
  * Filter class for highlighting code syntax.
  *
- * @package   filter_fetch_code
+ * @package   filter_fetchcode
  * @author    Camba Coop <info@camba.coop>
  * @copyright 2020 Camba Coop {@link https://www.camba.coop}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class filter_fetch_code extends moodle_text_filter {
+class filter_fetchcode extends moodle_text_filter {
 
     /**
      * The filter function is required, but the text just passes through.
@@ -46,7 +46,7 @@ class filter_fetch_code extends moodle_text_filter {
         // Define necessary regexs.
         $trustedsourcespattern = '/(https:\/\/gitlab.com|https:\/\/raw.githubusercontent.com)/';
         $externalsourcespattern = '/(https?|ftp):\/\/(-\.)?([^\s\/?\.#-]+\.?)+(\/[^\s]*)?/';
-        $allowallsources = get_config('filter_fetch_code', 'allowexternalsource');
+        $allowallsources = get_config('filter_fetchcode', 'allowexternalsource');
 
         if (!is_string($text) || empty($text)) {
             return $text;

@@ -17,7 +17,7 @@
 /**
  * Plugin strings are defined here.
  *
- * @package     filter_fetch_code
+ * @package     filter_fetchcode
  * @category    string
  * @copyright   2022 Cambá <info@camba.coop>
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later

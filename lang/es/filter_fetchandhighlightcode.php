@@ -17,7 +17,7 @@
 /**
  * English language strings.
  *
- * @package   filter_fetch_code
+ * @package   filter_fetchcode
  * @author    Camba Coop <info@camba.coop>
  * @copyright 2020 Camba Coop {@link https://www.camba.coop}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Fetch and Highlight Code';
 $string['filtername'] = 'Fetch and Highlight Code';
-$string['privacy:metadata'] = 'El plugin filter_fetch_code no guarda ninguna información personal.';
+$string['privacy:metadata'] = 'El plugin filter_fetchcode no guarda ninguna información personal.';
 $string['cdn'] = 'Utilizar CDN';
 $string['cdn_desc'] = 'Usa CDN library para importar las hojas de estilo. Esto puede ser mas rápido que importar los estilos de forma local,
                         pero podes preferir cargar los estilos localmente por varias razones.';

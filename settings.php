@@ -17,7 +17,7 @@
 /**
  * Settings for fetch and highlight code.
  *
- * @package   filter_fetch_code
+ * @package   filter_fetchcode
  * @author    Camba Coop <info@camba.coop>
  * @copyright 2020 Camba Coop {@link https://www.camba.coop}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -27,15 +27,15 @@ defined('MOODLE_INTERNAL') || die();
 
 if ($ADMIN->fulltree) {
 
-    $setting = new admin_setting_configcheckbox('filter_fetch_code/cdn',
-                                        new lang_string('cdn', 'filter_fetch_code'),
-                                        new lang_string('cdn_desc', 'filter_fetch_code'),
+    $setting = new admin_setting_configcheckbox('filter_fetchcode/cdn',
+                                        new lang_string('cdn', 'filter_fetchcode'),
+                                        new lang_string('cdn_desc', 'filter_fetchcode'),
                                         0);
     $settings->add($setting);
 
-    $setting = new admin_setting_configcheckbox('filter_fetch_code/allowexternalsource',
-                                       new lang_string('allowexternalsource', 'filter_fetch_code'),
-                                       new lang_string('allowexternalsource_desc', 'filter_fetch_code'),
+    $setting = new admin_setting_configcheckbox('filter_fetchcode/allowexternalsource',
+                                       new lang_string('allowexternalsource', 'filter_fetchcode'),
+                                       new lang_string('allowexternalsource_desc', 'filter_fetchcode'),
                                        0);
 
     $settings->add($setting);
